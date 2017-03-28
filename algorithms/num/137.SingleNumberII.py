@@ -26,4 +26,3 @@ class Solution(object):
                 ret = ret * 10 + num[0]
 
         return ret
-

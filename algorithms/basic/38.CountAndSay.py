@@ -24,4 +24,3 @@ class Solution(object):
         for i in xrange(n - 1):
             last = read_off(last)
         return last
-

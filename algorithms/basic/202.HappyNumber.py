@@ -4,6 +4,7 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
+
         def replace_with_sum(n):
             ret = 0
             for d in str(n):

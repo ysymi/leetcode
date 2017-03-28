@@ -1,5 +1,4 @@
 class Solution(object):
-
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
@@ -22,7 +21,6 @@ class Solution(object):
                         return pos[num]
                 else:
                     return sorted([pos[rest][0], pos[num][0]])
-
 
 # [1,1] 2
 # [2,3,4] 6

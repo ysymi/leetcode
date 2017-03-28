@@ -12,7 +12,4 @@ class Solution(object):
                 ret[leader] = []
             ret[leader].append(s)
 
-        return [v for k,v in ret.items()]
-
-
-
+        return [v for k, v in ret.items()]

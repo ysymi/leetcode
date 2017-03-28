@@ -27,6 +27,3 @@ class Solution(object):
         if inverse:
             ret = 1.0 / ret
         return ret
-
-
-
