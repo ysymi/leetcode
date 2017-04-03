@@ -1,3 +1,9 @@
+# ideas:
+# 一定是下标一个大一个小的两个数，从两边逼近，
+#
+# gains:
+#
+
 class Solution(object):
     def twoSum(self, numbers, target):
         """

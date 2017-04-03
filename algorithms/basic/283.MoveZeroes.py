@@ -1,4 +1,11 @@
-ss Solution(object):
+# ideas:
+# 不用交换，直接赋值，紧凑化非零值
+#
+# gains:
+#
+
+
+class Solution(object):
     def moveZeroes(self, nums):
         """
         :type nums: List[int]

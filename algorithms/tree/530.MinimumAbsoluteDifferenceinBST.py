@@ -1,3 +1,9 @@
+# ideas:
+# bfs遍历
+#
+# gains:
+# 不用queue时，需要注意遍历结束的条件
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

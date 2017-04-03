@@ -1,3 +1,11 @@
+# ideas:
+# 对出现次数进行排序
+#
+# gains:
+# items是一个方法而不是属性，需要调用才返回list，
+# reverse和key可能不需要同时出现，因为有些时候，key可以包括reverse的功能
+
+
 class Solution(object):
     def topKFrequent(self, nums, k):
         """

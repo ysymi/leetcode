@@ -1,3 +1,10 @@
+# ideas:
+# 记录下标
+#
+# gains:
+# sort是一个iterable的原地排序，return None
+# sorted是排序一个iterable的拷贝，return 排序结果 （字面意思）
+
 class Solution(object):
     def findRelativeRanks(self, nums):
         """

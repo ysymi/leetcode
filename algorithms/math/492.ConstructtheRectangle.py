@@ -1,3 +1,10 @@
+# ideas:
+# 均值定理？尽可能让两个数相等
+#
+# gains:
+# 尽快返回
+
+
 class Solution(object):
     def constructRectangle(self, area):
         """
