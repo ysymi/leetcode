@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#! /usr/bin/env python
 
 import os
 import sys
@@ -534,7 +534,7 @@ def render(category, number):
 
 
     """
-    filename_template = '~/study/leetcode/algorithms/%s/%s.%s.py'
+    filename_template = '%s/%s.%s.py'
     filename = filename_template % (category, number, problems[number])
     with open(filename, 'w') as f:
         f.write(code_template)
