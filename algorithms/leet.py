@@ -525,11 +525,17 @@ def rename(module):
 
 
 def render(category, number):
-    code_template = """#! conding=utf8\n# ideas:\n#\n#\n# gains:#\n\n"""
+    code_template = """#! coding=utf8\n# ideas:\n# \n# gains:#\n# \n\n\n"""
     filename_template = '%s/%s.%s.py'
     filename = filename_template % (category, number, problems[number])
+    print filename
+    if os.path.exists(filename):
+        print '%s is exists' % filename
+    else:
+        print '%s will be created'
     with open(filename, 'w') as f:
         f.write(code_template)
+
 
 
 if __name__ == '__main__':
