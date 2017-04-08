@@ -525,15 +525,7 @@ def rename(module):
 
 
 def render(category, number):
-    code_template = """#! conding=utf8
-    # ideas:
-    #
-    #
-    # gains:
-    #
-
-
-    """
+    code_template = """#! conding=utf8\n# ideas:\n#\n#\n# gains:#\n\n"""
     filename_template = '%s/%s.%s.py'
     filename = filename_template % (category, number, problems[number])
     with open(filename, 'w') as f:
