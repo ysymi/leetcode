@@ -61,7 +61,7 @@ def solve_problem(number, category):
     else:
         print '{filename} will be created'.format(filename=filename)
         with open(filename, 'w') as f:
-            code_template = """#! coding=utf8\n# ideas:\n# \n# gains:#\n# \n\n\n"""
+            code_template = """#! coding=utf8\n# ideas:\n# \n# gains:\n# \n\n\n"""
             f.write(code_template)
 
 
