@@ -55,14 +55,19 @@ def solve_problem(number, category):
     """
     problems = get_problems()
 
+    filepath = '{category}'.format(category=category)
     filename = '{category}/{number}.{title}.py'.format(category=category, number=number, title=problems[number])
+    if not os.path.exists(filepath):
+        os.mkdir(filepath)
+        print '{filepath} is a new category'.format(filepath=filepath)
+
     if os.path.exists(filename):
         print '{filename} is already exists'.format(filename=filename)
     else:
-        print '{filename} will be created'.format(filename=filename)
         with open(filename, 'w') as f:
             code_template = """#! coding=utf8\n# ideas:\n# \n# gains:\n# \n\n\n"""
             f.write(code_template)
+        print '{filename} was ready'.format(filename=filename)
 
 
 if __name__ == '__main__':
