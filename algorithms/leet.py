@@ -70,6 +70,18 @@ def solve_problem(number, category):
         print '{filename} was ready'.format(filename=filename)
 
 
+def help():
+    """
+    print the help text
+    :return:
+    """
+    print "usage:"
+    print "leet.py update                   fetch problem list"
+    print "leet.py solve <id> <category>    create solution template for a problem"
+    print "leet.py rename <category>        rename all file to leetcode's name"
+    print "leet.py help                     show this help"
+
+
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         op = sys.argv[1]
@@ -79,3 +91,7 @@ if __name__ == '__main__':
             solve_problem(*sys.argv[2:])
         if op == 'rename':
             rename_problems(sys.argv[2])
+        if op == 'help':
+            help()
+    else:
+        help()
