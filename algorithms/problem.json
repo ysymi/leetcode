@@ -521,5 +521,13 @@
   "564": "find-the-closest-palindrome", 
   "566": "reshape-the-matrix", 
   "567": "permutation-in-string", 
-  "568": "maximum-vacation-days"
+  "568": "maximum-vacation-days", 
+  "572": "subtree-of-another-tree", 
+  "573": "squirrel-simulation", 
+  "575": "distribute-candies", 
+  "576": "out-of-boundary-paths", 
+  "581": "shortest-unsorted-continuous-subarray", 
+  "582": "kill-process", 
+  "583": "delete-operation-for-two-strings", 
+  "587": "erect-the-fence"
 }
