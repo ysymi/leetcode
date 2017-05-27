@@ -529,5 +529,9 @@
   "581": "shortest-unsorted-continuous-subarray", 
   "582": "kill-process", 
   "583": "delete-operation-for-two-strings", 
-  "587": "erect-the-fence"
+  "587": "erect-the-fence", 
+  "588": "design-in-memory-file-system", 
+  "592": "fraction-addition-and-subtraction", 
+  "593": "valid-square", 
+  "594": "longest-harmonious-subsequence"
 }
