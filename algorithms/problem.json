@@ -47,7 +47,7 @@
   "46": "permutations", 
   "47": "permutations-ii", 
   "48": "rotate-image", 
-  "49": "anagrams", 
+  "49": "group-anagrams", 
   "50": "powx-n", 
   "51": "n-queens", 
   "52": "n-queens-ii", 
@@ -519,6 +519,7 @@
   "562": "longest-line-of-consecutive-one-in-matrix", 
   "563": "binary-tree-tilt", 
   "564": "find-the-closest-palindrome", 
+  "565": "array-nesting", 
   "566": "reshape-the-matrix", 
   "567": "permutation-in-string", 
   "568": "maximum-vacation-days", 
@@ -531,7 +532,14 @@
   "583": "delete-operation-for-two-strings", 
   "587": "erect-the-fence", 
   "588": "design-in-memory-file-system", 
+  "591": "tag-validator", 
   "592": "fraction-addition-and-subtraction", 
   "593": "valid-square", 
-  "594": "longest-harmonious-subsequence"
+  "594": "longest-harmonious-subsequence", 
+  "598": "range-addition-ii", 
+  "599": "minimum-index-sum-of-two-lists", 
+  "600": "non-negative-integers-without-consecutive-ones", 
+  "605": "can-place-flowers", 
+  "606": "construct-string-from-binary-tree", 
+  "609": "find-duplicate-file-in-system"
 }
