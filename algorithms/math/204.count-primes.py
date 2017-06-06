@@ -23,19 +23,20 @@ class Solution(object):
         :rtype: int
         """
 
-        is_prime = [False] * n
+        deleted = [False] * n
         prime = []
 
         for i in range(2, n):
-            if i not in non_prime:
+            if not deleted[i]:
                 prime.append(i)
 
             for p in prime:
-                non_prime.add(i * p)
-                if i % p == 0:
-                    break
-        print prime
+                if i * p < n:
+                    deleted[i * p] = True
+                    if i % p == 0:
+                        break
+
         return len(prime)
 
 
-print Solution().countPrimes(100000)
+print Solution().countPrimes(10000)
